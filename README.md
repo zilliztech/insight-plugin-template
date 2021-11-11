@@ -1,0 +1,1 @@
+# insight-plugin-template
