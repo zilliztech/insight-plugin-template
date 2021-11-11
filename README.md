@@ -58,14 +58,6 @@ You can develop your plugins(both client and server) under `src/<your plugin dir
 
 `npx lerna bootstrap`
 
-### Modify and run `milvus-insight` client 
-
-```bash
-mv ./tsconfig.paths.plugin.json ./milvus-insight/client/config.paths.json
-cd milvus-insight/client
-yarn start:plugin
-```
-
 ### Run `milvus-insight` server 
 
 ```bash
@@ -73,11 +65,18 @@ cd milvus-insight/express
 yarn start:plugin
 ```
 
+### Modify and run `milvus-insight` client 
+
+```bash
+mv ./tsconfig.paths.plugin.json ./milvus-insight/client/tsconfig.paths.json
+cd milvus-insight/client
+yarn start:plugin
+```
 ### Start developing
 
 You can write your plugins now.
 
 Client plugins support fast refresh, and server plugins need rebuild.
 
-## Next step
+## Generate plugin package(TODO)
 
