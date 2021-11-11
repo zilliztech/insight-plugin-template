@@ -1,0 +1,8 @@
+{
+  "name": "milvus-insight-plugin-template",
+  "private": true,
+  "workspaces": [
+    "src/**",
+    "milvus-insight/**"
+  ]
+}

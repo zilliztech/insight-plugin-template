@@ -1,0 +1,7 @@
+{
+  "name": "plugin-1-server",
+  "version": "0.1.0",
+  "server": {
+    "api": "example"
+  }
+}

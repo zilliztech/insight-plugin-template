@@ -1,0 +1,9 @@
+{
+  "name": "plugin-1",
+  "version": "0.1.0",
+  "client": {
+    "path": "plugin-1",
+    "entry": "Index.tsx",
+    "label": "plugin-label-1"
+  }
+}

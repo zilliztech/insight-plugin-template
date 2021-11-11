@@ -1,0 +1,9 @@
+{
+  "packages": [
+    "src/**",
+    "milvus-insight/**"
+  ],
+  "useWorkspaces": true,
+  "version": "independent",
+  "npmClient": "yarn"
+}

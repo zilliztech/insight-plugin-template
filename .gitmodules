@@ -1,0 +1,3 @@
+[submodule "milvus-insight"]
+	path = milvus-insight
+	url = git@github.com:zilliztech/milvus-insight.git
