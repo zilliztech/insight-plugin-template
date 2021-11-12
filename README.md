@@ -1,9 +1,12 @@
 # insight-plugin-template
+
 ## Overview
+
 `insight-plugin-template` is a template repo for developing plugins under [milvus-insight](https://github.com/zilliztech/milvus-insight).
 You can develop your plugins(both client and server) under `src/<your plugin directory>/*`.
 
 ## Structure
+
 ```
 .
 ├── LICENSE
@@ -49,7 +52,9 @@ You can develop your plugins(both client and server) under `src/<your plugin dir
 │           └── package.json
 └── yarn.lock
 ```
+
 ## Steps
+
 ### Init `milvus-insight`
 
 `git submodule update --remote`
@@ -58,25 +63,31 @@ You can develop your plugins(both client and server) under `src/<your plugin dir
 
 `npx lerna bootstrap`
 
-### Run `milvus-insight` server 
+### Run `milvus-insight` server
 
 ```bash
 cd milvus-insight/express
 yarn start:plugin
 ```
 
-### Modify and run `milvus-insight` client 
+### Modify and run `milvus-insight` client
 
 ```bash
 mv ./tsconfig.paths.plugin.json ./milvus-insight/client/tsconfig.paths.json
 cd milvus-insight/client
 yarn start:plugin
 ```
+
 ### Start developing
 
 You can write your plugins now.
 
 Client plugins support fast refresh, and server plugins need rebuild.
 
-## Generate plugin package(TODO)
+## Generate plugin package
 
+`npx lerna run build:plugins`
+
+Then all packages will be in `dist/`.
+
+Copy corresponding plugin packages(client or server) to `milvus-insight`.

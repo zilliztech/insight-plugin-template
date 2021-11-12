@@ -1,5 +1,5 @@
 {
-  "name": "plugin-1-server",
+  "name": "plugin-1",
   "version": "0.1.0",
   "server": {
     "api": "example"

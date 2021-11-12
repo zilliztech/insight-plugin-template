@@ -1,7 +1,8 @@
 {
   "packages": [
     "src/**",
-    "milvus-insight/**"
+    "milvus-insight/**",
+    "utils/**"
   ],
   "useWorkspaces": true,
   "version": "independent",

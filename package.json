@@ -3,6 +3,7 @@
   "private": true,
   "workspaces": [
     "src/**",
-    "milvus-insight/**"
+    "milvus-insight/**",
+    "utils/**"
   ]
 }
