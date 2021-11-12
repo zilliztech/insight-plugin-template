@@ -73,7 +73,7 @@ yarn start:plugin
 ### Modify and run `milvus-insight` client
 
 ```bash
-mv ./tsconfig.paths.plugin.json ./milvus-insight/client/tsconfig.paths.json
+cp ./tsconfig.paths.plugin.json ./milvus-insight/client/tsconfig.paths.json
 cd milvus-insight/client
 yarn start:plugin
 ```
