@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "all_plugins/*": ["../../src/*"],
+      "insight_src/*": ["src/*"]
+    }
+  }
+}
