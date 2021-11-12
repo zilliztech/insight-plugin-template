@@ -15,7 +15,12 @@ const data = [
 ];
 
 router.get("/", (req: Request, res: Response, next: NextFunction) => {
-  return res.json(data);
+  try {
+    res.json(data);
+  } catch (err) {
+    // Do call `next(err)` then Insight can catch and wrap this error.
+    next(err);
+  }
 });
 
 export default { router };

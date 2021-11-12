@@ -4,6 +4,7 @@
   "client": {
     "path": "plugin-1",
     "entry": "Index.tsx",
-    "label": "plugin-label-1"
+    "label": "plugin-label-1",
+    "icon": "Icon.tsx"
   }
 }
